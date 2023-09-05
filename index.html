@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>淘京会</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./font-icon/iconfont.css">
+</head>
+<style>
+</style>
+
+<body>
+    <!-- 最外层包裹元素 -->
+    <div id="wrapper">
+        <!-- 头部 -->
+        <div id="header">
+            <!-- 上半部分 -->
+            <div class="headTop">
+                <!-- 版心元素 -->
+                <div class="headTopMain">
+                    <!-- 左侧 -->
+                    <div class="left">
+                        <h5>欢迎来到淘京会 请</h5>
+                        <p>
+                            <a href="javascript:;">登录</a>
+                            <a href="javascript:;">注册</a>
+                        </p>
+                    </div>
+                    <!-- 右侧 -->
+                    <div class="right">
+                        <nav>
+                            <a href="javascript:;">我的订单</a>
+                            <a href="javascript:;">我的购物车</a>
+                            <a href="javascript:;">我的淘京会</a>
+                            <a href="javascript:;">淘京会Vip</a>
+                            <a href="javascript:;">企业采购</a>
+                            <a href="javascript:;">关注淘京会</a>
+                            <a href="javascript:;">合作招商</a>
+                            <a href="javascript:;">商家后台</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- 下半部分 -->
+            <div class="bottom">
+                <div class="headBottom">
+                    <!-- 版心元素 -->
+                    <div class="headBottomMain">
+                        <!-- logo -->
+                        <h1 class="logo">
+                            <a href="javascript:;">
+                                <img src="./imgs/logo.img" alt="">
+                            </a>
+                        </h1>
+                        <!-- 搜索框 -->
+                        <div class="search">
+                            <input type="text" placeholder="请输入搜索内容">
+                            <input type="submit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 分类导航 -->
+        <div id="navWrap">
+            <!-- 版心元素 -->
+            <div class="navWrapMain">
+                <a href="javascript:;">全部商品分类</a>
+                <a href="javascript:;">服装城</a>
+                <a href="javascript:;">美妆馆</a>
+                <a href="javascript:;">淘京会超市</a>
+                <a href="javascript:;">全球购</a>
+                <a href="javascript:;">闪购</a>
+                <a href="javascript:;">团购</a>
+                <a href="javascript:;">有趣</a>
+                <a href="javascript:;">秒杀</a>
+            </div>
+        </div>
+        <!-- 内容区 -->
+        <div id="content">
+            <!-- 版心元素 -->
+            <div class="contentMain">
+                <!-- 路径导航 -->
+                <div id="navPath"></div>
+                <!--  -->
+                <div id="container">
+                    <!-- 左侧放大镜 -->
+                    <div id="left">
+                        <div id="leftTop">
+                            <!-- 小图框 -->
+                            <div id="smallPic">
+                                <!-- 小图片 -->
+                                <img src="./imgs/s1.png" alt="">
+                                <!-- 蒙版元素 -->
+                            </div>
+                            <!-- 大图框 -->
+                        </div>
+                        <!-- 下边缩略图 -->
+                        <div id="leftBottom">
+                            <a href="javascript:;" class="prev">
+                                < </a>
+                                    <div id="piclist">
+                                        <ul>
+                                        </ul>
+                                    </div>
+                                    <a href="javascript:;" class="next"> > </a>
+                        </div>
+                    </div>
+                    <!-- 右侧商品详情区域 -->
+                    <div class="right">
+                        <!-- 商品详情数据 -->
+                        <div class="rightTop"></div>
+
+                        <!-- 商品参数数据 -->
+                        <div class="rightBottom">
+                            <!-- 选择后结果的区域 -->
+                            <div class="choose">
+                                <!-- <div class="mark">
+                                    黑色
+                                    <a>X</a>
+                                </div>
+                                <div class="mark">
+                                    黑色
+                                    <a>X</a>
+                                </div>
+                                <div class="mark">
+                                    黑色
+                                    <a>X</a>
+                                </div>
+                                <div class="mark">
+                                    黑色
+                                    <a>X</a>
+                                </div> -->
+                            </div>
+                            <!-- 商品参数的选择区域 -->
+                            <div class="chooseWrap">
+                                <!-- <dl>
+                                    <dt>选择颜色</dt>
+                                    <dd>金色</dd>
+                                    <dd>银色</dd>
+                                    <dd>黑色</dd>
+                                </dl>
+                                <dl>
+                                    <dt>内存容量</dt>
+                                    <dd>16G</dd>
+                                    <dd>64G</dd>
+                                    <dd>128G</dd>
+                                </dl>
+                                <dl>
+                                    <dt>选择版本</dt>
+                                    <dd>公开版</dd>
+                                    <dd>移动版</dd>
+                                </dl>
+                                <dl>
+                                    <dt>购买方式</dt>
+                                    <dd>官方标配</dd>
+                                    <dd>优惠移动版</dd>
+                                    <dd>电信优惠版</dd>
+                                </dl> -->
+                            </div>
+                            <!-- 加入购物车以及数量区域选择 -->
+                            <div class="addCart">
+                                <div class="count">
+                                    <input type="text">
+                                    <a href="javascript:;">+</a>
+                                    <a href="javascript:;">-</a>
+                                </div>
+                                <button>加入购物车</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 下半部分卡片区 -->
+        <div class="cardContainer">
+            <div class="satr">
+            </div>
+            <div class="card1 allCard">
+                <div class="titles">云考勤机</div>
+                <div class="slice"></div>
+                <div class="hint">M2</div>
+                <div class="cardInfo1 cardDetail">
+                    <div class="Infotitle">云考勤机M2</div>
+                    <div class="InfoDetail">这不仅仅是一台考勤机器</div>
+                    <button>购买</button>
+                </div>
+            </div>
+            <div class="card2 allCard">
+                <div class="titles">智能门禁机</div>
+                <div class="slice"></div>
+                <div class="hint">D3</div>
+                <div class="cardInfo2 cardDetail">
+                    <div class="Infotitle">智能门禁D3</div>
+                    <div class="InfoDetail">有温度的办公,即刻开启</div>
+                    <button>购买</button>
+                </div>
+            </div>
+            <div class="card3 allCard">
+                <div class="titles">云打印机</div>
+                <div class="slice"></div>
+                <div class="hint">M6568NW</div>
+                <div class="cardInfo3 cardDetail">
+                    <div class="Infotitle">智能云打印机</div>
+                    <div class="InfoDetail">多终端共享打印</div>
+                    <button>购买</button>
+                </div>
+            </div>
+            <div class="card4 allCard">
+                <div class="titles">音视频硬件</div>
+                <div class="slice"></div>
+                <div class="hint">F2</div>
+                <div class="cardInfo4 cardDetail">
+                    <div class="Infotitle">音视频硬件F2</div>
+                    <div class="InfoDetail">让高效会议自然发生</div>
+                    <button>购买</button>
+                </div>
+            </div>
+            <div class="card5 allCard">
+                <div class="titles">XR眼镜</div>
+                <div class="slice"></div>
+                <div class="hint">Rokid</div>
+                <div class="cardInfo5 cardDetail">
+                    <div class="Infotitle">XR眼镜Rokid Air</div>
+                    <div class="InfoDetail">开启你的沉浸办公空间</div>
+                    <button>购买</button>
+                </div>
+            </div>
+            <div class="card6 allCard">
+                <div class="titles">硬件生态</div>
+                <div class="slice"></div>
+                <div class="hint">开放共赢</div>
+                <div class="cardInfo6 cardDetail">
+                    <div class="Infotitle">硬件生态开放共赢</div>
+                    <div class="InfoDetail">XR混合办公室打造计划</div>
+                    <button>购买</button>
+                </div>
+            </div>
+            <div class="wave bgTop">
+                <div class="waveInner waveTop" style="background-image: url(/imgs/wave-top.png);"></div>
+            </div>
+            <div class="wave bgMid">
+                <div class="waveInner waveMid" style="background-image: url(/imgs/wave-mid.png);"></div>
+            </div>
+            <div class="wave bgBottom">
+                <div class="waveInner waveBot" style="background-image: url(/imgs/wave-bot.png);"></div>
+            </div>
+        </div>
+
+        <!-- 右侧固定导航条 -->
+     <div class="rightNav active">
+        <div class="btns btnsClose"></div>
+        <div class="rightNavList">
+            <ul>
+                <li class="one">
+                    <p class="iconfont icon-kefu"></p>
+                    <div class="kefu toolTip">
+                        <div class="kefuInfo">在线客服</div><br>
+                        <span>实时解答使用问题</span>
+                    </div>
+                    <div class="sanjiao"></div>
+                </li>
+                <li class="two">
+                    <p class="iconfont icon-answer"></p>
+                    <div class="answer toolTip">
+                        <div class="answerInfo">400-111-1234</div><br>
+                        <span>官方电话</span>
+                    </div>
+                    <div class="sanjiao"></div>
+                </li>
+                <li class="three">
+                    <p class="iconfont icon-help"></p>
+                    <div class="help toolTip">
+                        <div class="helpInfo">帮助中心</div><br>
+                        <span>获取使用指南及实践经验</span>
+                    </div>
+                    <div class="sanjiao"></div>
+                </li>
+                <li class="four">
+                    <p class="iconfont icon-erweima"></p>
+                    <div class="erweima toolTip">
+                        <div class="erweimaInfo">
+                            <img src="/imgs/erweima.jpg" alt="">
+                        </div><br>
+                        <span>淘京会扫码关注</span>
+                    </div>
+                    <div class="sanjiao"></div>
+                </li>
+            </ul>
+        </div>
+     </div>
+    </div>
+     
+
+    <script src="./js/data.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+// 解决高度塌陷问题(当子元素中开启浮动时，会造成父元素高度塌陷问题)
+.clearfix{
+    &::after{
+        clear: both;
+        display: block;
+        content: '';
+    }
+}
